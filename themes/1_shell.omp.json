@@ -15,6 +15,41 @@
           "template": "{{ .UserName }} <#ffffff>on</>",
           "type": "session"
         },
+           {
+              "foreground": "#21c7a8",
+              "style": "plain",
+              "template": "\u2570\u2500",
+              "type": "text"
+            },
+            {
+              "background": "transparent",
+              "foreground": "#1DB954",
+              "leading_diamond": "\ue0b6",
+              "properties": {
+                "playing_icon": "\uf1bc "
+              },
+              "style": "diamond",
+              "template": " {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} ~ {{ .Track }}{{ end }} ",
+              "trailing_diamond": "\ue0c6 ",
+              "type": "spotify"
+            }
+    ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#ffbebc",
+          "leading_diamond": "<#ff70a6> \ue200 </>",
+          "properties": {
+            "display_host": true
+          },
+          "style": "diamond",
+          "template": "{{ .UserName }} <#ffffff>on</>",
+          "type": "session"
+        },
         {
           "foreground": "#bc93ff",
           "properties": {
