@@ -6,14 +6,10 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#ffbebc",
+          "foreground": "#21c7a8",
           "leading_diamond": "<#ff70a6> \ue200 </>",
           "properties": {
-            "display_host": true
-          },
-          "style": "diamond",
-          "template": "{{ .UserName }} <#ffffff>on</>",
-          "type": "session"
+          }
         },
            {
               "foreground": "#21c7a8",
