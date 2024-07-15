@@ -5,18 +5,6 @@
       "alignment": "left",
       "newline": true,
       "segments": [
-        {
-          "foreground": "#21c7a8",
-          "leading_diamond": "<#ff70a6> \ue200 </>",
-          "properties": {
-          }
-        },
-           {
-              "foreground": "#21c7a8",
-              "style": "plain",
-              "template": "\u2570\u2500",
-              "type": "text"
-            },
             {
               "background": "transparent",
               "foreground": "#1DB954",
@@ -43,7 +31,7 @@
             "display_host": true
           },
           "style": "diamond",
-          "template": "{{ .UserName }} <#ffffff>on</>",
+          "template": "paimon 死 <#ffffff>on</>",
           "type": "session"
         },
         {
